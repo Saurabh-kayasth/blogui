@@ -1,0 +1,82 @@
+.titleContainer {
+  width: 27%;
+  background-color: #40404c;
+  /* box-shadow: 0px 5px 5px 0px #333333; */
+  height: 520px;
+  margin: 10px;
+  margin-top: 15px;
+  margin-left: 0px;
+  padding: 0%;
+  overflow: hidden;
+  padding-bottom: 2px;
+  border-width: 1px;
+  border-color: #e0084b;
+  border-style: solid;
+}
+
+.titlesHeader {
+  /* width: 100%; */
+  background-image: linear-gradient(to left, #e0084b, #ff5b77);
+  height: 40px;
+  margin: 0px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  padding-left: 5px;
+}
+
+.heading {
+  color: #fff;
+  font-size: 17px;
+}
+
+.titleContain {
+  width: 100%;
+  height: 60px;
+  background-color: #2b2b39;
+  box-shadow: 0ps 5px 5px 0px #333333;
+  overflow: hidden;
+  padding: 1px;
+  display: flex;
+  margin: 2px;
+  flex-direction: row;
+}
+
+.titleHeading {
+  font-size: 11px;
+  color: #fff;
+}
+
+.titleImage {
+  width: 100px;
+  height: 60px;
+}
+
+.wrapPost {
+  height: 480px;
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.wrapPost::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.wrapPost {
+  -ms-overflow-style: none;
+}
+
+.titleData {
+  background-color: #2b2b39;
+  height: 60px;
+  padding: 5px;
+  /* padding-top: 0px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.titleData:hover {
+  background-color: #1e1e27;
+}

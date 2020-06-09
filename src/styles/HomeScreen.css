@@ -1,0 +1,7 @@
+.banner {
+  background-image: url("../assets//banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  height: 200px;
+  opacity: 50%;
+}

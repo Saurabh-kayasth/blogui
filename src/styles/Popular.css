@@ -1,0 +1,101 @@
+.popularContainer {
+  width: 98%;
+  background-color: #40404c;
+  height: 203px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 0%;
+  overflow: hidden;
+  padding-bottom: 2px;
+  border-width: 1px;
+  border-color: #e0084b;
+  border-style: solid;
+}
+
+.popularHeader {
+  background-image: linear-gradient(to left, #ff5b77, #e0084b);
+  height: 40px;
+  margin: 0px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  padding-left: 5px;
+}
+
+.heading {
+  color: #fff;
+  font-size: 17px;
+}
+
+.wrapPostPopular {
+  width: 100%;
+  height: 200px;
+  background-color: #1e1e1e;
+  height: 200px;
+  overflow-x: auto;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.wrapPostPopular::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.wrapPostPopular {
+  -ms-overflow-style: none;
+}
+
+.pstContainP {
+  width: 14%;
+  height: 155px;
+  background-color: #2b2b39;
+  box-shadow: 0ps 5px 5px 0px #333333;
+  overflow: hidden;
+  padding: 1px;
+  display: inline-block;
+  flex-wrap: wrap;
+  margin: 2px;
+  margin-top: 4px;
+  flex-direction: column;
+}
+
+.postP {
+  width: 100%;
+  height: 90px;
+  background-size: 100% 90px;
+  background-repeat: no-repeat;
+}
+
+.postTitle {
+  color: #fff;
+  font-size: 11px;
+}
+
+.dataContainerP {
+  width: 100%;
+  background-color: #000;
+  height: 65px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postImageP {
+  width: 100%;
+  height: 90px;
+  background-image: url("../assets/wall3.webp");
+  background-size: 100% 90px;
+  background-repeat: no-repeat;
+}
+
+.descriptionP {
+  font-size: 10px;
+  width: 100%;
+  color: gray;
+  margin-top: 3px;
+}
